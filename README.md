@@ -30,6 +30,13 @@ The models were trained, evaluated, and compared based on accuracy, F1-score, me
 
 ## Conclusion
 
-From the exploratory data analysis, it was observed that factors such as maximum heart rate, ST
+From the exploratory data analysis, it was observed that factors such as maximum heart rate, ST depression during exercise, chest pain type, exercise-induced angina, and ST segment slope have a significant impact on heart disease risk. The SVM model outperformed other models, achieving an accuracy of 84%.
+
+However, it's important to note that the accuracy of the model could potentially be improved by increasing the size of the dataset. The dataset used in this project was relatively small, which might have affected the model's generalization.
+
+For future work, fine-tuning hyperparameters, exploring feature engineering techniques, and considering more complex models could lead to improved performance.
+
+Feel free to explore the Jupyter Notebook for detailed analysis and code implementation.
+
 
 
